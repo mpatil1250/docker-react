@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t mpatil1250/docker-react -f Dockerfile.dev
